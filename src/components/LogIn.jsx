@@ -13,6 +13,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 
+/* Function Copyright */
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
