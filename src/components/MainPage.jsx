@@ -5,9 +5,12 @@ import { CssBaseline } from "@material-ui/core";
 /*Components imports*/
 const MHeader = lazy(() => import('./MHeader'));
 const MHero = lazy(() => import('./MHero'));
+const MSeparador = lazy(() => import('./MSeparador'));
+const MSeparadorTexto = lazy(() => import('./MSeparadorTexto'));
 
 
 
+/* Esta es la pagina principal a donde termina llegando el usuario */
 
 const useStyles = makeStyles((theme) => ({
 /*    root: {
@@ -38,9 +41,11 @@ function MainPageF() {
         <React.Fragment>
 
             <div className={classes.root}> 
+            
             <CssBaseline />
             <MHeader />
-            <MHero />   
+            <MHero />
+            <MSeparador /> 
 
             </div>
         </React.Fragment>

@@ -1,0 +1,17 @@
+import React, { useEffect, useState, lazy } from 'react';
+
+
+/*CSS muy custom para material ui, fijense si lo quieren pasar MUI */
+import "../cssCustom/MSeparadorTexto.css";
+
+function MSeparadorTextoF() {
+  return (
+    <div class="css-jw76fk">
+        <h2 class="css-qfixle">Featured this month</h2>
+    </div>
+  );
+}
+
+export default function MSeparadorTexto() {
+    return <MSeparadorTextoF />;
+}

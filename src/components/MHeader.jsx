@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh',
+    height: '30vh',
     fontFamily: 'Nunito',
   },
   appbar: {
@@ -77,19 +77,6 @@ function LPHeaderF() {
         </Toolbar>
       </AppBar>
 
-      <Collapse
-        in={checked}
-        {...(checked ? { timeout: 1000 } : {})}
-        collapsedHeight={50}
-      >
-        <div className={classes.container}>
-
-
-
-
-   
-        </div>
-      </Collapse>
     </div>
   );
 }
