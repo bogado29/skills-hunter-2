@@ -8,19 +8,17 @@ const MHero = lazy(() => import('./MHero'));
 const MSeparador = lazy(() => import('./MSeparador'));
 const MSeparadorTexto = lazy(() => import('./MSeparadorTexto'));
 
+/*Skills*/
+const Css3 = lazy(() => import('./Css3'));
+const JavaScript = lazy(() => import('./JavaScript'));
+const ReactFunct = lazy(() => import('./React'));
+const Hero2 = lazy(() => import('./MHero2'));
+const Newsletter = lazy(() => import('./Newsletter'));
 
 
 /* Esta es la pagina principal a donde termina llegando el usuario */
 
 const useStyles = makeStyles((theme) => ({
-/*    root: {
-        minHeight: '100vh',
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/cup-resize.png'})`,
-        backgroundSize: '100%',
-        backgroundRepeat: 'no-repet',
-
-    }
-*/
 
 root: {
     minHeight: '100vh',
@@ -46,8 +44,15 @@ function MainPageF() {
             <MHeader />
             <MHero />
             <MSeparador /> 
+            <Css3/>
+            <MSeparador />
+            <Hero2 />
+            <MSeparador />
+            <JavaScript />
+            <MSeparador />
+            <Newsletter />
 
-            </div>
+        </div>
         </React.Fragment>
 
     )

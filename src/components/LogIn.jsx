@@ -106,7 +106,7 @@ function SignInSideF() {
               variant="contained"
               color="primary"
               className={classes.submit}
-              ponent={Link}to="/mainpage"
+              component={Link}to="/mainpage"
             >
               Iniciar Sesion
             </Button>

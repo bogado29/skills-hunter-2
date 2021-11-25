@@ -2,8 +2,7 @@ import React, { Suspense, lazy } from "react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 /*Components imports*/ 
@@ -15,11 +14,10 @@ const MainPage = lazy(() => import('./components/MainPage'));
 
 
 
-
 export default function App() {
   return (
     <Router>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={ <div> Loading.. </div>}>
         <div>
           
           

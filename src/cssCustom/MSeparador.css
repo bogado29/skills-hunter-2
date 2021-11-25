@@ -1,9 +1,9 @@
 /*! CSS Used from: Embedded */
-*{box-sizing:border-box;}
-/*! CSS Used from: Embedded */
-::selection{color:var(--theme-ui-colors-white,#fff);background:var(--theme-ui-colors-omegaDark,#e2e8f0);}
-/*! CSS Used from: Embedded */
 .css-1b24wpc{box-sizing:border-box;margin:0;min-width:0;min-width:auto;border-top-style:solid;border-top-color:transparent;border-top-width:2px;height:0;margin-top:1rem;margin-bottom:1rem;}
 @media screen and (min-width:640px){
 .css-1b24wpc{margin-top:2rem;margin-bottom:2rem;}
 }
+/*! CSS Used from: Embedded */
+*{box-sizing:border-box;}
+/*! CSS Used from: Embedded */
+::selection{color:var(--theme-ui-colors-white,#fff);background:var(--theme-ui-colors-omegaDark,#e2e8f0);}
