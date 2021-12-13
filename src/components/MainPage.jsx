@@ -14,6 +14,7 @@ const JavaScript = lazy(() => import('./JavaScript'));
 const ReactFunct = lazy(() => import('./React'));
 const Hero2 = lazy(() => import('./MHero2'));
 const Newsletter = lazy(() => import('./Newsletter'));
+const SearchBar= lazy(() => import('./searchbar'));
 
 
 /* Esta es la pagina principal a donde termina llegando el usuario */
@@ -43,7 +44,9 @@ function MainPageF() {
             <CssBaseline />
             <MHeader />
             <MHero />
-            <MSeparador /> 
+            <MSeparador />
+            <SearchBar />
+            <MSeparador />
             <Css3/>
             <MSeparador />
             <Hero2 />

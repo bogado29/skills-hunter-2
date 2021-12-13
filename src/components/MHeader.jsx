@@ -2,16 +2,6 @@ import React, { useEffect, useState, lazy } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, IconButton, Toolbar, Collapse } from '@material-ui/core';
 import SortIcon from '@material-ui/icons/Sort';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Link as Scroll } from 'react-scroll';
-
-/*Data imports*/
-import BookData from "./Data.json";
-
-
-/*Components imports*/
-const LPSearchBar = lazy(() => import('./seachbar'));
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -69,7 +59,6 @@ function LPHeaderF() {
             Skills<span className={classes.colorText}>Hunter.</span>
           </h1>
 
-              <LPSearchBar className={classes.root} placeholder="Enter a Book Name..." data={BookData}/>
 
           <IconButton>
             <SortIcon className={classes.icon} />

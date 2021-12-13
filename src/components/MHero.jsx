@@ -3,9 +3,6 @@ import React, { lazy } from 'react';
 /*CSS muy custom para material ui, fijense si lo quieren pasar MUI */
 import "../cssCustom/MHero.css";
 
-/*Components imports*/
-const LPSearchBar = lazy(() => import('./seachbar'));
-
 
 function LPHeaderF() {
 

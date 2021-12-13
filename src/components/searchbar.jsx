@@ -34,6 +34,8 @@ function SearchBarF({ placeholder, data }) {
     };
   
     return (
+
+
       <div className="search">
         <div className="searchInputs">
           <input
